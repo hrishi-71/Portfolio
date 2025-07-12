@@ -6,7 +6,7 @@ const Contact = () => {
             <h1 className="ctHead">Let's Work Together!</h1>
             <h3 className="sbHead mb-4">I'm open to freelance work and collobration.</h3>
             <div className="Form">
-                <form name="contact" method="post" data-netlify="true">
+                <form name="contact" method="post">
                     {/* Hidden input for Netlify */}
                     <input type="hidden" name="form-name" value="contact" />
 
