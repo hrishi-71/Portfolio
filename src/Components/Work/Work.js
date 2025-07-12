@@ -25,7 +25,7 @@ const Work = () => {
               image="Portfolio.png"
               title="HD-Portfolio"
               text="Personal Portfolio Website – A fully responsive React-based portfolio to showcase my projects, skills, and contact information. Built using modern UI/UX practices, React components, and smooth navigation with React Router. Designed to reflect my identity as a web developer and serve as my online presence."
-              source="https://github.com/hrishi-71/HD-Educity"
+              source="https://github.com/hrishi-71/Portfolio"
             />
           </div>
           <div className="carousel-item px-2">
