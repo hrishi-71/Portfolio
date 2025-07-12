@@ -1,0 +1,44 @@
+.Navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+  width: 100%;
+  z-index: 999;
+}
+.navbar {
+  background: #000000c4;
+}
+.nav-item:hover {
+  text-shadow: 2px 2px 2px black, 4px 4px 20px whitesmoke !important;
+  cursor: pointer;
+}
+/* .Name {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+} */
+#brand {
+  width: 50px;
+}
+#navtog {
+  width: 50px;
+}
+.contactbtn span {
+  border: 2px solid red;
+  background: red;
+}
+@media only screen and (max-width: 991.5px) {
+  .contactbtn {
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+  }
+  .contactbtn span {
+    content: url(../../../public/contact.png);
+    width: 70px;
+    border: 2px solid red;
+    border-radius: 50%;
+    background: red;
+    outline: none;
+  }
+}

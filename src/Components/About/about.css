@@ -1,0 +1,22 @@
+#about {
+  padding: 6% 5%;
+  font-style: italic;
+  font-weight: bold;
+  background: #000;
+  text-align: center;
+  width: 100%;
+}
+.abtHead{
+    color: #0289b6;
+}
+.about-info{
+  color: #fff;
+  font-size: 110%;
+  margin-bottom: 50px;
+}
+.man{
+    width: 80%;
+}
+.hi {
+    width: 50px;
+}

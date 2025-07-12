@@ -1,0 +1,24 @@
+.serv {
+  margin: auto;
+  height: 200px;
+  width: 300px;
+  text-align: left;
+  background: #000;
+  box-shadow: 0px 0px 5px #fff;
+}
+.serv .image {
+  filter: invert(100%);
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+.serv .card-title {
+  color: #0289b6;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.serv .list li {
+  color: #fff;
+  font-family: cursive;
+  font-size: large;
+}

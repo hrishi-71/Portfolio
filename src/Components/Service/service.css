@@ -1,0 +1,68 @@
+#service {
+  padding-top:120px ;
+  padding-bottom:150px ;
+  background: #000;
+  text-align: center;
+}
+.servHead {
+  color: #0289b6;
+  font-size: 250%;
+}
+.servIntro {
+  color: #fff;
+  font-size: 150%;
+  font-style: italic;
+  font-weight: 400;
+  width: 90%;
+}
+.Cards {
+  width: 80%;
+  margin-bottom: 20px;
+}
+.carousel {
+  display: none;
+  height: 250px;
+  overflow: auto;
+  margin: 52px 0px;
+}
+.carousel button{
+  color: #000;
+  /* background: #000; */
+}
+.carousel-inner{
+  min-height: 300;
+}
+/* .carousel-indicators [data-bs-target] {
+  background-color: #333; /
+}
+.carousel-indicators .active {
+  background-color: #000; /
+} */
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: brightness(0) saturate(100%);
+} */
+
+.carousel-item {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+.final-word {
+  color: #fff;
+}
+.servContact {
+  font-size: 20px;
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .carousel {
+    display: block;
+  }
+  .Cards {
+    display: none;
+  }
+}
