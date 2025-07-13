@@ -20,7 +20,7 @@ const Contact = () => {
                     </div>
                     <div className="mb-3">
                         <label htmlFor="phone" className="form-label">Phone No:</label>
-                        <input type="tel" className="form-control border border-dark" id="phone" name="phone" placeholder="Enter Your Phone Number (Optional)" pattern="\+?[0-9\s\-]{10,15}" />
+                        <input type="tel" className="form-control border border-dark" id="phone" name="phone" placeholder="Enter Your Phone Number" pattern="\+?[0-9\s\-]{10,15}" required/>
                     </div>
                     <div className="mb-3">
                         <label htmlFor="message" className="form-label">Write Your Message Here:</label>
