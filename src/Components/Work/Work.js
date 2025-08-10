@@ -42,7 +42,7 @@ const Work = () => {
             <WorkCard
               project="https://hd-mystore.netlify.app"
               image="Mystore.png"
-              title="HD-Educity"
+              title="E-Commerce-App"
               text="A modern, responsive e-commerce frontend application built with React for dynamic UI rendering and Redux Toolkit (RTK) for efficient state management. The app provides users with a seamless shopping experience, including product browsing, category filtering, cart management, and checkout flow. It consumes a backend API to fetch product data, ensuring real-time updates and smooth navigation."
               source="https://github.com/hrishi-71/E-Commerce-App"
             />
