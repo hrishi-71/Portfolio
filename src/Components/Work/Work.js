@@ -43,7 +43,7 @@ const Work = () => {
               project="https://hd-mystore.netlify.app"
               image="Mystore.png"
               title="HD-Educity"
-              text="A modern, responsive e-commerce frontend application built with React for dynamic UI rendering and Redux Toolkit (RTK) for efficient state management. The app provides users with a seamless shopping experience, including product browsing, category filtering, cart management, and checkout flow. It consumes a backend API to fetch product data, ensuring real-time updates and smooth navigation. The design focuses on performance, accessibility, and mobile-friendliness."
+              text="A modern, responsive e-commerce frontend application built with React for dynamic UI rendering and Redux Toolkit (RTK) for efficient state management. The app provides users with a seamless shopping experience, including product browsing, category filtering, cart management, and checkout flow. It consumes a backend API to fetch product data, ensuring real-time updates and smooth navigation."
               source="https://github.com/hrishi-71/E-Commerce-App"
             />
           </div>
@@ -58,36 +58,6 @@ const Work = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      {/* <div className="MyWork row mx-auto">
-        <div className="col-md-4">
-          <WorkCard
-            project="https://hd-educity.netlify.app"
-            image="HDEducity.png"
-            title="HD-Educity"
-            text="A responsive React web application built as my first hands-on project. It features modern UI components, dynamic rendering, and smooth navigation using React Router. Developed using JSX, CSS, and component-based architecture to practice real-world React development. Its hosted on Netlify, includes form handling and has mobile-friendly layout"
-            source="https://github.com/hrishi-71/HD-Educity"
-          />
-        </div>
-        <div className="col-md-4">
-          <WorkCard
-            project="https://hd-educity.netlify.app"
-            image="Portfolio.png"
-            title="HD-Educity"
-            text="Some quick example text to build on the card title and make up the bulk of the card's content."
-            source="https://github.com/hrishi-71/HD-Educity"
-          />
-        </div>
-        <div className="col-md-4">
-          <WorkCard
-            project="https://hd-educity.netlify.app"
-            image="contact.jpg"
-            title="HD-Educity"
-            text="Some quick example text to build on the card title and make up the bulk of the card's content."
-            source="https://github.com/hrishi-71/HD-Educity"
-          />
-        </div>
-
-      </div> */}
     </div>
   )
 }
