@@ -32,10 +32,10 @@ const Contact = () => {
                 </form>
             </div>
             <hr />
-            <div className="socialID">
-                <div><a href="https://github.com/hrishi-71" target='_blank' rel="noreferrer"><img src="github.png" alt="git" />hrishi-71</a></div>
-                <div><a href="mailto:hrishid71@gmail.com"><img src="email.jpg" alt="email"  />hrishid71@gmail.com</a></div>
-                <div><a href="https://www.linkedin.com/in/hrishidhanawade" target="_blank" rel="noreferrer"><img src="linkedin.jpg" alt="linkedin" />Hrishi Dhanawade</a></div>
+            <div className="socialID row">
+                <div className='col-4'><a href="https://github.com/hrishi-71" target='_blank' rel="noreferrer"><img src="github.png" alt="git" /></a></div>
+                <div className='col-4'><a href="mailto:hrishid71@gmail.com"><img src="email.jpg" alt="email"  /></a></div>
+                <div className='col-4'><a href="https://www.linkedin.com/in/hrishidhanawade" target="_blank" rel="noreferrer"><img src="linkedin.jpg" alt="linkedin" /></a></div>
             </div>
         </div>
     )

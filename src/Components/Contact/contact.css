@@ -29,21 +29,7 @@ hr{
 .socialID{
     text-align: center;
 }
-.socialID div{
-  display: inline-block;
-  width: 300px;
-  margin: 20px;
-  font-size: large;
-  font-weight: bold;
-  /* border: 2px solid black; */
-
-}
-.socialID div a{
-  color: #fff;
-  text-decoration: none;
-}
 .socialID img{
   width: 50px;
-  margin: 5px;
   border-radius: 50%;
 }

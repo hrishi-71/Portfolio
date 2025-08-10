@@ -17,6 +17,7 @@ const Work = () => {
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselOne" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselOne" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselOne" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active px-2">
@@ -35,6 +36,15 @@ const Work = () => {
               title="HD-Educity"
               text="A responsive React web application built as my first hands-on project. It features modern UI components, dynamic rendering, and smooth navigation using React Router. Developed using JSX, CSS, and component-based architecture to practice real-world React development. Its hosted on Netlify, includes form handling and has mobile-friendly layout"
               source="https://github.com/hrishi-71/HD-Educity"
+            />
+          </div>
+          <div className="carousel-item px-2">
+            <WorkCard
+              project="https://hd-mystore.netlify.app"
+              image="Mystore.png"
+              title="HD-Educity"
+              text="A modern, responsive e-commerce frontend application built with React for dynamic UI rendering and Redux Toolkit (RTK) for efficient state management. The app provides users with a seamless shopping experience, including product browsing, category filtering, cart management, and checkout flow. It consumes a backend API to fetch product data, ensuring real-time updates and smooth navigation. The design focuses on performance, accessibility, and mobile-friendliness."
+              source="https://github.com/hrishi-71/E-Commerce-App"
             />
           </div>
         </div>
